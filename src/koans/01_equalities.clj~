@@ -24,7 +24,7 @@
   (= true (not (= 1 nil)))
 
   "Strings, and keywords, and symbols: oh my!"
-  (= false (= "foo" :foo 'foo))
+  (= true (= "foo" :foo 'foo))
 
   "Make a keyword with your keyboard"
   (= :foo (keyword __))
